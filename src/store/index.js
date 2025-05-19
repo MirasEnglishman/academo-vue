@@ -152,7 +152,7 @@ function initSyllabusData() {
         number: 3,
         topic: 'Основы SEO',
         questions: ['Что такое ключевые слова?','Как устроен поисковый алгоритм?'],
-        seminar: 'Подобрать 10 ключевых фраз для сайта',
+        seminar: 'Подобрать 10 ключевы фраз для сайта',
         materials: 'Записи блога Moz по SEO',
         lectureHours: '2',
         seminarHours: '1'
