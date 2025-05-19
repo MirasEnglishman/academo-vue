@@ -9,23 +9,23 @@ const routes = [
     meta: { title: 'Дисциплины' }
   },
   {
-    path: '/courses',
-    name: 'courses',
+    path: '/pasport',
+    name: 'pasport',
     component: () => import('../views/CurriculumPage.vue'),
     meta: { title: 'Паспорт ОП' }
   },
   {
-    path: '/students',
-    name: 'students',
+    path: '/syllabus',
+    name: 'syllabus',
     component: () => import('../views/SyllabusView.vue'),
-    meta: { title: 'Студенты' }
+    meta: { title: 'Силлабус' }
   },
-//   {
-//     path: '/reports',
-//     name: 'reports',
-//     component: () => import('../views/ReportsView.vue'),
-//     meta: { title: 'Отчеты' }
-//   }
+  {
+    path: '/reports',
+    name: 'reports',
+    component: () => import('../views/ReportsView.vue'),
+    meta: { title: 'Отчеты' }
+  }
 ]
 
 const router = createRouter({

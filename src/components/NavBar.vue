@@ -26,8 +26,8 @@ export default {
     return {
       menuItems: [
         { title: 'Дисциплины', route: '/' },
-        { title: 'Курсы', route: '/courses' },
-        { title: 'Студенты', route: '/students' },
+        { title: 'Паспорт ОП', route: '/pasport' },
+        { title: 'Силлабус', route: '/syllabus' },
         { title: 'Отчеты', route: '/reports' }
       ]
     }
